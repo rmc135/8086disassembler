@@ -14,7 +14,7 @@ Note: Input is assumed to be .COM, with entry point at 0100h. Disassembling .EXE
 
 An example of the output, showing the correct segregation of "inline" data:
 
-`
+```
 0100  E8 05 00          CALL 0108
 0103  B4 4C             MOV AH,4C
 0105  CD 21             INT 21
@@ -49,7 +49,7 @@ An example of the output, showing the correct segregation of "inline" data:
 012C  5D                POP BP
 012D  33 C0             XOR AX,AX
 012F  C2 02 00          RET 0002
-`
+```
 
 ---
 
